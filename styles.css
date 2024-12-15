@@ -1,0 +1,29 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: forestgreen;
+    
+}
+.main{
+    background-color: olivedrab;
+    width: 400px;
+    height: max-content;
+    border: solid white 3px;
+    border-radius: 10px;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+div{
+    background-color: darkgreen;
+    width: 16px;
+    height: 16px;
+    margin: 0px;
+    flex-shrink: 0;
+}
