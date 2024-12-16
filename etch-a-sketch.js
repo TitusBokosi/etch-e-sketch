@@ -10,4 +10,7 @@ function changeColor(event){
     mainDiv.appendChild(square);
  }
 
-
+const btn = document.createElement('button');
+btn.textContent = 'select the number of squares';
+document.body.appendChild(btn);
+btn.className = 'btn';

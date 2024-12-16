@@ -1,6 +1,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     background-color: forestgreen;
@@ -9,12 +10,13 @@ body{
 .main{
     background-color: olivedrab;
     width: 400px;
-    height: max-content;
+    height: min-content;
     border: solid white 3px;
     border-radius: 10px;
     
 }
 .main{
+    align-self: center;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -26,4 +28,15 @@ div{
     height: 16px;
     margin: 0px;
     flex-shrink: 0;
+}
+.btn {
+    margin-top: 10px;
+    width:fit-content;
+    height: fit-content;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: solid white 3px;
 }
