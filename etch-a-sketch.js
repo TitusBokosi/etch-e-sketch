@@ -12,5 +12,5 @@ function changeColor(event){
 
 const btn = document.createElement('button');
 btn.textContent = 'select the number of squares';
-document.body.appendChild(btn);
+document.body.insertBefore(btn, mainDiv);
 btn.className = 'btn';
